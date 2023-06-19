@@ -1,6 +1,6 @@
 from django.shortcuts import render
 import openai
-openai.api_key = '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'
+openai.api_key = 'YOUR_API_KEY'
 
 def generate_title(description):
     prompt = f"Video description: {description}\nSuggested title:"
