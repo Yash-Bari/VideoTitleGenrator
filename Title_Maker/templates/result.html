@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suggested Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+            color: #007bff;
+            margin-top: 20px;
+        }
+
+        /* Animation */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .bounce {
+            animation: bounce 0.5s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Suggested Title</h1>
+        <h2 class="bounce">{{ suggested_title }}</h2>
+    </div>
+</body>
+</html>
